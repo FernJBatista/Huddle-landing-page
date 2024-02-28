@@ -236,6 +236,11 @@ footer div:hover {
 }
 
 @media (max-width: 478px) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    background-position: top center;
+    background-size: contain;
+  }
   header {
     padding: 2rem 2rem;
   }
@@ -256,7 +261,7 @@ footer div:hover {
   }
   main div.col1 h1,
   main div.col2 h1 {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   main div.col1 button,
   main div.col2 button {
